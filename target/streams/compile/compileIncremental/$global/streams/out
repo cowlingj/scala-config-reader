@@ -1,0 +1,40 @@
+[debug] [naha] 
+[debug] [naha] Initial source changes: 
+[debug] [naha] 	removed:Set()
+[debug] [naha] 	added: Set(/home/jonathan/Projects/OptionReaderScala/OptionReader.scala)
+[debug] [naha] 	modified: Set()
+[debug] [naha] Invalidated products: Set()
+[debug] [naha] External API changes: API Changes: Set()
+[debug] [naha] Modified binary dependencies: Set()
+[debug] [naha] Initial directly invalidated sources: Set(/home/jonathan/Projects/OptionReaderScala/OptionReader.scala)
+[debug] [naha] 
+[debug] [naha] Sources indirectly invalidated by:
+[debug] [naha] 	product: Set()
+[debug] [naha] 	binary dep: Set()
+[debug] [naha] 	external source: Set()
+[debug] All initially invalidated sources: Set(/home/jonathan/Projects/OptionReaderScala/OptionReader.scala)
+[debug] [naha] Initial set of included nodes: Set(/home/jonathan/Projects/OptionReaderScala/OptionReader.scala)
+[debug] [naha] Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+[info] Compiling 1 Scala source to /home/jonathan/Projects/OptionReaderScala/target/scala-2.10/classes...
+[debug] Getting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.10.6
+[debug] Getting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.10.6
+[debug] Running cached compiler 24b3fab1, interfacing (CompilerInterface) with Scala compiler version 2.10.6
+[debug] Calling Scala compiler with arguments  (CompilerInterface):
+[debug] 	-bootclasspath
+[debug] 	/usr/lib/jvm/java-8-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk/jre/classes:/home/jonathan/.sbt/boot/scala-2.10.6/lib/scala-library.jar
+[debug] 	-classpath
+[debug] 	/home/jonathan/Projects/OptionReaderScala/target/scala-2.10/classes
+[debug] Scala compilation took 2.640328904 s
+[debug] [naha] Invalidating /home/jonathan/Projects/OptionReaderScala/OptionReader.scala...
+[debug] [naha] Invalidating (transitively) by inheritance from /home/jonathan/Projects/OptionReaderScala/OptionReader.scala...
+[debug] [naha] Initial set of included nodes: Set(/home/jonathan/Projects/OptionReaderScala/OptionReader.scala)
+[debug] [naha] Invalidated by transitive inheritance dependency: Set(/home/jonathan/Projects/OptionReaderScala/OptionReader.scala)
+[debug] [naha] The /home/jonathan/Projects/OptionReaderScala/OptionReader.scala source file has the following regular definitions changed:
+[debug] [naha] 	notify, printStackTrace, getLocalizedMessage, wait, $asInstanceOf, productArity, equals, fillInStackTrace, initCause, asInstanceOf, synchronized, $isInstanceOf, getCause, COMMENT, kvStringPairs, canEqual, productPrefix, notifyAll, isInstanceOf, getStackTrace, getOptions, getStackTraceElement, <init>, getMessage, setStackTrace, getSuppressed, ==, getStackTraceDepth, clone, addSuppressed, kvPairs, LineParseException, getStringOptions, $init$, OptionReader, copy, message, toString, !=, getClass, copy$default$1, parseLine, ne, eq, productIterator, ##, finalize, productElement, hashCode.
+[debug] [naha] All member reference dependencies will be considered within this context.
+[debug] [naha] New invalidations:
+[debug] [naha] 	Set()
+[debug] [naha] Initial set of included nodes: Set()
+[debug] [naha] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] [naha] 	Set()
+[debug] [naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set()

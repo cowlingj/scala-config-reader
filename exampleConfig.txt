@@ -1,0 +1,17 @@
+# This is an example config file
+# This is a file used to test the scala Option reader
+# lines begining with the comment character (default "#") will be ignored
+# all other lines are read for kv pairs in the following form
+key=value
+# bellow is another example to see if the reader can handle multiple configs
+key2 = value2
+
+# around this comment is some whitespace
+
+   now we have another option = and here is the long value with spaces
+
+# testing more meaningful values
+val3=true
+val4=2
+val5=3.14
+val6=A
