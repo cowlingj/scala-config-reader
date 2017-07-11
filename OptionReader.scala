@@ -57,11 +57,6 @@ object ConfigToStringPair {
   // if it is return (key, value)
   @throws(classOf[LineParseException])
   def parseLine(line: String, lineNo: Int): (String, String) = {
-    // line to parse
-//val line = givenLine
-    // line number, only for throwing exceptions
-// val lineNo = givenLineNo
-
     // if the line isn't blank and doesn't contain "=", then the line is
     // invalid (we know this line isn't a comment)
     if (line.matches("!(.*=.*)"))
